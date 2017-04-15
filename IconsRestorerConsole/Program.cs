@@ -17,9 +17,11 @@ namespace IconsRestorer
             foreach(string arg in args)
                 switch(arg)
                 {
-                    case "-save": SavePositions(); break;
-                    case "-restore": RestorePositions(); break;
-                    default: Console.WriteLine("Unrecognized arguement: {0}", arg); break;
+                    case "-s":
+                    case "--save": SavePositions(); break;
+                    case "-r":
+                    case "--restore": RestorePositions(); break;
+                    default: Console.WriteLine("Unrecognized arguement: {0}", arg); Console.WriteLine("-r --restore\tRestore position of icons\r\n-s --save\tSave position of icons"); break;
                 }
         }
 
