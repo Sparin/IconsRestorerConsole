@@ -7,7 +7,7 @@ implementation in the console version without GUI
 * %nameofprogram% --save *For save icons position on the desktop*
 * %nameofprogram% --restore *For restore icons position on the desktop*
 
-For example I renamed executable file from output to *ir.exe* and put it in %systemroot%/System32 folder. Everytimes after using RDP I'll call *ir -restore* from command line
+For example I renamed executable file from output to *ir.exe* and put it in %systemroot%/System32 folder. Everytimes after using RDP I'll call *ir -r* from command line
 
 Also you can make alias through DOSKEY
 
